@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form action="">
+        <h1>Novel Services Login</h1>
+        <label for="username"> username :</label>
+        <input type="text" name="username" id="username" placeholder="username" required><br><br>
+        <label for="password"> password :</label>
+        <input type="password" name="password" id="password" placeholder="password" required><br><br>
+        <label for="city"> city of employment</label>
+        <input type="text" id="city" name="city"><br><br>
+        <label for="server ">web server</label>
+        <select name="server" id="server">
+            <option value="localhost">choose a server</option>
+        </select><br>
+        <p>please  specify your role :</p>
+        <input type="radio" name="admin" id="admin" value="admin">
+        <label for="role">admin</label><br>
+        <input type="radio" name="engineer" id="engineer" value="engineer">
+        <label for="role">engineer</label><br>
+        <input type="radio" name="manager" id="manager" value="manager">
+        <label for="role">manager</label><br>
+        <input type="radio" name="guest" id="guest" value="guest">
+        <label for="role">guest</label><br>
+
+        <p>single sign-on to the following :</p>
+        <input type="checkbox" id="mail" name="sso" value="mail" >
+        <label for="mail">mail</label><br>
+        <input type="checkbox" id="payroll" name="sso" value="payroll">
+        <label for="payroll">payroll</label><br>
+        <input type="checkbox" id="selfservice" name="sso" value="selfservice">
+        <label for="selfservice">selfservice</label><br>
+
+        <br>
+        <button type="submit">login</button>
+        <button type="submit">reset</button>
+        
+    </form>
+
+</body>
+</html>
