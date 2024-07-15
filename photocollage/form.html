@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    
+    <style>
+        body{
+            background-color: #fc9f9f;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: auto;
+            }
+        form{
+            background-color: #6b7ff1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: powderblue;
+            width: 100%;
+            }
+        form label{
+            font-weight: bold;
+            display: block;
+            margin-top: auto;
+            margin-bottom: 5px;
+        }    
+       body{
+            text-align: justify , center;
+        }
+            </style>
+        <link rel="stylesheet" href="">
+</head>
+<body>
+    <form >
+        <div class="profile-pic">
+            <img src="image1.png" id="profile" alt="profile-pic">
+            <label for="profile-pic">profile
+                <input type="file" name="profile-pic" id="profile-pic" accept="image" >
+            </label>
+        </div>
+        <label for="name" >Name
+        <input type="text" required name="name" id="name"><br><br>
+    </label>
+        <label for="email">Email
+        <input type="email" required name="email" id="email"><br><br>
+    </label>
+        <label for="phone">Phone
+        <input type="tel" required name="phone" id="phone"><br><br>
+    </label>
+        <label for="password">Password
+        <input type="password"required name="password" id="password"><br><br>
+    </label>
+        <label for="gender">Gender
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="other">Other
+        <br><br>
+
+    </label>
+    <label for="url">URL
+        <input type="url" name="url" id="url"><br><br>
+    </label>
+
+    <label for="hobbies">Hobbies
+        <input type="checkbox" name="hobbies" id="hobbies" value="reading">Reading
+        <input type="checkbox" name="hobbies" id="hobbies" value="playing">playing
+        <input type="checkbox" name="hobbies" id="hobbies" value="coding">coding
+        <br><br>
+    </label>   
+        <label for="country">Country
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="china">China</option>
+            </select>
+        </select>
+        </label>
+        <br>
+
+        <label for="photo">select photo
+        <input type="file" name="photo" id="photo"><br><br>
+        <label for="resume">resume
+        <input type="file" name="resume" id="resume"><br><br>
+    </label>
+    <label for="skill1" class="skill-label">Skill 1:
+    <input type="text" name="skill1_text" id="skill1_text" class="skill-input">
+    <input type="range" name="skill1_range" id="skill1_range" class="skill-input"></label> 
+<br><br>
+        <input type="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

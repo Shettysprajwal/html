@@ -1,0 +1,77 @@
+p{
+    font-size:30px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-style: italic;
+}
+p{
+    color: hsla(245, 92%, 50%, 0.999);
+    /* text-align: center; */
+    text-decoration: line-through;
+    /* text-shadow: 2px 2px 2px red; */
+    /* text-indent: 50px; */
+    /* line-height: 200px; */
+    /* word-spacing: 200px; */
+    /* letter-spacing: 200px; */
+    text-transform: capitalize;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+    /* background-image: url('./image.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: radial-gradient(rgb(91, 40, 40),rgb(120, 120, 91),rgb(46, 46, 92),pink,rgb(82, 42, 82)); */
+}
+/* .class1{
+background-color: aqua;
+font-weight: 800;
+
+/* left: 30px; 
+}
+.class2{
+background-color: rgb(180, 97, 171);
+font-weight: 800;
+}
+.class3{
+background-color: rgb(72, 105, 34);
+font-weight: 800;
+position: sticky;
+top: 300px;
+}
+.class4{
+background-color: rgb(150, 209, 209);
+font-weight: 800;
+}
+div{
+    width: 200px;
+    height: 3s00px;
+    border: 1px solid red;
+
+} */
+.containers{
+    /* display:flex; */
+    /* flex-direction: column-reverse; */
+    display:flex;
+    /* grid-template-columns: 800px 80px auto 40px; */
+    justify-content: space-between;
+
+}
+div{
+    /* width: 300px; */
+    /* height: 300px; */
+/* border: 1px solid red; */
+gap: 3px;
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div{
+    display: flex;
+    justify-content:space-around;
+}
